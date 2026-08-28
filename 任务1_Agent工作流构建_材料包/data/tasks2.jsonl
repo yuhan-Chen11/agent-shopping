@@ -13,3 +13,7 @@
 {"task_id":"B012","instruction":"I prefer Rice-Inc, but only choose it if it is also the cheapest Person mug.","scenario":"conflict","expected":"clarify"}
 {"task_id":"B013","instruction":"Find a mug about a tag that does not exist under $20.","scenario":"unknown_tag","expected":"reject"}
 {"task_id":"B014","instruction":"Recommend an inexpensive shirt featuring Barn, below 17 dollars.","scenario":"paraphrase","expected":"recommend","reference_product_id":"P0000"}
+{"task_id":"B015","instruction":"I'd like a Barn motif shirt from Konopelski-Inc with a budget below $17.","scenario":"unseen_paraphrase","expected":"recommend","reference_product_id":"P0000"}
+{"task_id":"B016","instruction":"I'm after a mug centered on Sunny from Bayer-and-Sons, capped at $12.","scenario":"unseen_paraphrase","expected":"recommend","reference_product_id":"P0002"}
+{"task_id":"B017","instruction":"Could you find a Winter-inspired shirt made by Konopelski-Inc for no more than $19?","scenario":"unseen_paraphrase","expected":"recommend","reference_product_id":"P0029"}
+{"task_id":"B018","instruction":"Please get me a mug with a Nature motif, from Bayer-and-Sons, at most $17.","scenario":"unseen_paraphrase","expected":"recommend","reference_product_id":"P0033"}
