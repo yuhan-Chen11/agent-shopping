@@ -11,7 +11,7 @@
 .\.venv\Scripts\python.exe "任务1_Agent工作流构建_材料包\starter\simulate_agent.py" --limit 5
 ```
 
-真实模型配置放在 `.env`，参考 `.env.example`。未配置 API 时，Agent 会使用本地 fallback 解析器。不要将 `.env` 提交到 GitHub。
+真实模型配置放在 `.env`，参考 `.env.example`。未配置 API 时，Agent 会使用本地 fallback 解析器。
 
 
 ## Web Demo
@@ -21,6 +21,8 @@
 ```
 
 浏览器打开 `http://127.0.0.1:5000`。
+
+正常情况下，网页端即可完成所有功能效果展示。
 
 
 ## 评测（可选）
