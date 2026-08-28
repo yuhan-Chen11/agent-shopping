@@ -1,0 +1,15 @@
+{"task_id":"B000","instruction":"Please find a Barn shirt from Konopelski-Inc priced under $17.","scenario":"paraphrase","expected":"recommend","reference_product_id":"P0000"}
+{"task_id":"B001","instruction":"I am looking for a Clothes themed shirt that costs less than $23.","scenario":"paraphrase","expected":"recommend","reference_product_id":"P0001"}
+{"task_id":"B002","instruction":"Could you buy an affordable mug related to Sunny? Prefer Bayer-and-Sons if available.","scenario":"paraphrase","expected":"recommend","reference_product_id":"P0002"}
+{"task_id":"B003","instruction":"Find a Barn shirt with a budget under $5.","scenario":"no_solution","expected":"reject"}
+{"task_id":"B004","instruction":"Find a Person mug from Oberbrunner-Block-and-Mills under $15.","scenario":"boundary_price","expected":"reject"}
+{"task_id":"B005","instruction":"I need a Nature themed mug for less than $17.","scenario":"boundary_price","expected":"recommend"}
+{"task_id":"B006","instruction":"Buy an affordable Ocean shirt and prefer Leannon-Fahey-and-Sawayn if available.","scenario":"soft_preference","expected":"recommend","reference_product_id":"P0008"}
+{"task_id":"B007","instruction":"Find a mug about Desk from Heathcote-Kautzer-and-Turner with price under $16.","scenario":"hard_constraint","expected":"recommend","reference_product_id":"P0036"}
+{"task_id":"B008","instruction":"Please find a Winter shirt from Konopelski-Inc for less than $19.","scenario":"paraphrase","expected":"recommend","reference_product_id":"P0029"}
+{"task_id":"B009","instruction":"I want something cheap.","scenario":"incomplete","expected":"clarify"}
+{"task_id":"B010","instruction":"Find me a mug, any theme is fine, under $12.","scenario":"incomplete","expected":"clarify"}
+{"task_id":"B011","instruction":"I need a Nature mug under $20, but it must be a shirt.","scenario":"conflict","expected":"clarify"}
+{"task_id":"B012","instruction":"I prefer Rice-Inc, but only choose it if it is also the cheapest Person mug.","scenario":"conflict","expected":"clarify"}
+{"task_id":"B013","instruction":"Find a mug about a tag that does not exist under $20.","scenario":"unknown_tag","expected":"reject"}
+{"task_id":"B014","instruction":"Recommend an inexpensive shirt featuring Barn, below 17 dollars.","scenario":"paraphrase","expected":"recommend","reference_product_id":"P0000"}
