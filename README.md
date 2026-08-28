@@ -50,4 +50,3 @@ cd "任务1_Agent工作流构建_材料包\starter"
 ```
 
 `--mode hybrid` 会调用千问；`--mode direct_llm` 是不经过本地校验的对照，会消耗 API 配额。
-```
